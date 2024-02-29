@@ -17,3 +17,5 @@ Jenkins [status](https://ci-builds.apache.org/job/Groovy/)
 | Groovy 5_0_X | Groovy 4_0_X |
 | ------------ | ------------ |
 | ![Groovy 5](https://ci-builds.apache.org/job/Groovy/job/Groovy%20snapshot%20build/badge/icon) | ![Groovy 4](https://ci-builds.apache.org/job/Groovy/job/Groovy%204%20snapshot%20build/badge/icon) |
+
+See also: [Joint Builds](./JOINT_BUILDS.md)
