@@ -1,15 +1,24 @@
 # Apache Groovy joint build status
 
-Groovy builds
+## Groovy builds
 
-Groovy builds a recent version of `grails-core` for each Groovy push/PR:
+Groovy tests a recent version of `grails-core` for each Groovy push/PR
+on the GROOVY_2_5_X and GROOVY_3_0_X branches:
 
 | Project | Versions |
 | ------- | -------- |
 | [Grails Core](https://github.com/grails/grails-core/) | Grails 6.2.x/Groovy 3_0_X [![Grails Joint Validation Build](https://github.com/apache/groovy/actions/workflows/grails-joint-validation.yml/badge.svg)](https://github.com/apache/groovy/actions/workflows/grails-joint-validation.yml?branch=GROOVY_3_0_X) 
 | [Grails Core](https://github.com/grails/grails-core/) | Grails 4.0.x/Groovy 2_5_X [![Grails Joint Validation Build](https://github.com/apache/groovy/actions/workflows/grails-joint-validation.yml/badge.svg)](https://github.com/apache/groovy/actions/workflows/grails-joint-validation.yml?branch=GROOVY_2_5_X) 
 
-Grails builds
+Groovy tests a recent version of `micronaut-core` and `micronaut-groovy`
+for each Groovy push/PR on the GROOVY_3_0_X and GROOVY_4_0_X branches:
+
+| Project | Versions |
+| ------- | -------- |
+| [Grails Core](https://github.com/grails/grails-core/) | Micronaut Core 4.4.x/Micronaut Groovy 4.1.x/Groovy 4_0_X [![Micronaut Joint Validation Build](https://github.com/apache/groovy/actions/workflows/micronaut-joint-validation.yml/badge.svg)](https://github.com/apache/groovy/actions/workflows/micronaut-joint-validation.yml?branch=GROOVY_4_0_X) 
+| [Grails Core](https://github.com/grails/grails-core/) | Micronaut Core 3.10.x/Micronaut Groovy 3.5.x/Groovy 3_0_X [![Grails Joint Validation Build](https://github.com/apache/groovy/actions/workflows/micronaut-joint-validation.yml/badge.svg)](https://github.com/apache/groovy/actions/workflows/micronaut-joint-validation.yml?branch=GROOVY_3_0_X) 
+
+## Grails builds
 
 | Project | Groovy 3_0_X |
 | ------- | ------------ |
